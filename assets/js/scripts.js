@@ -4,7 +4,7 @@ $(document).on('click', '.slider-navs .nav-item', function() {
 		$navs 	= $(this).parent('.slider-navs'),
 		index  	= $(this).index();
 
-	$('.slider-item.active', $slider).addClass('fxSoftPulseOut').removeClass('fxSoftPulseIn active');
+	$('.slider-item.active', $slider).removeClass('fxSoftPulseIn active').addClass('fxSoftPulseOut');
 	$('.slider-item').eq(index).addClass('fxSoftPulseIn active');
 
 	$('.nav-item.active', $slider).removeClass('active');
