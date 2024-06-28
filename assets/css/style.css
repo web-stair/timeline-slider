@@ -84,12 +84,12 @@ p, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	text-align: center;
 	opacity: 0;
-	transform: translateY(-100px);
+	transform: translateX(-200px);
 	transition: all ease-in-out 0.8s;
 }
 .slider-item.active .slide-caption {
 	opacity: 1;
-	transform: translateY(0);
+	transform: translateX(0);
 }
 .slider-navs {
 	position: absolute;
